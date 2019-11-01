@@ -159,7 +159,8 @@ PRODUCT_PACKAGES += \
     NotchBarKiller \
     SettingsOverlayJuice \
     SystemUIOverlayJuice \
-    TelephonyOverlayJuice
+    TelephonyOverlayJuice \
+    WifiOverlay
 
 # Sensors
 PRODUCT_PACKAGES += \
