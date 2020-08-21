@@ -160,7 +160,8 @@ PRODUCT_PACKAGES += \
     SettingsOverlayJuice \
     SystemUIOverlayJuice \
     TelephonyOverlayJuice \
-    WifiOverlay
+    WifiOverlay \
+    TetheringConfigOverlay
 
 # Sensors
 PRODUCT_PACKAGES += \
