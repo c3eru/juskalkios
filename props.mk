@@ -89,6 +89,11 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.binary_xml=false
 
+# Transcoding related property.
+PRODUCT_PRODUCT_PROPERTIES += \
+    debug.media.transcoding.codec_max_operating_rate_720P=60 \
+    debug.media.transcoding.codec_max_operating_rate_1080P=60
+
 # ZRAM
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.zram.mark_idle_delay_mins=60 \
