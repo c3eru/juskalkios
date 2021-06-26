@@ -15,6 +15,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     dalvik.vm.isa.arm64.variant=cortex-a73 \
     dalvik.vm.isa.arm.variant=cortex-a73
 
+# Dex2oat
+PRODUCT_PRODUCT_PROPERTIES += \
+    dalvik.vm.dex2oat64.enabled=true
+
 # IMS
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.dbg.volte_avail_ovr=1 \
