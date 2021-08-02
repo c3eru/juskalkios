@@ -19,6 +19,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     dalvik.vm.dex2oat64.enabled=true
 
+# DRM
+PRODUCT_PRODUCT_PROPERTIES += \
+    drm.service.enabled=true
+
 # IMS
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.dbg.volte_avail_ovr=1 \
@@ -28,3 +32,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.vendor.radio.force_ltd_sys_ind=1 \
     persist.vendor.radio.voice_on_lte=1 \
     persist.vendor.radio.calls.on.ims=1
+
+# Netflix custom property
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.netflix.bsp_rev=Q6115-31409-1
