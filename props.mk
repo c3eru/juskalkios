@@ -33,6 +33,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.vendor.radio.voice_on_lte=1 \
     persist.vendor.radio.calls.on.ims=1
 
+# Media
+PRODUCT_PRODUCT_PROPERTIES += \
+    vendor.audio.offload.buffer.size.kb=256
+
 # Netflix custom property
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.netflix.bsp_rev=Q6115-31409-1
