@@ -32,6 +32,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Graphics
 PRODUCT_PRODUCT_PROPERTIES += \
+    vendor.display.disable_offline_rotator=1 \
     debug.sf.latch_unsignaled=1 \
     debug.hwui.use_buffer_age=false \
     vendor.display.disable_rotator_downscale=1 \
