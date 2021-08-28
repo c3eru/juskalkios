@@ -41,6 +41,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Graphics
 PRODUCT_PRODUCT_PROPERTIES += \
+    vendor.display.disable_excl_rect_partial_fb=1 \
     debug.sdm.support_writeback=0 \
     vendor.display.disable_offline_rotator=1 \
     debug.sf.latch_unsignaled=1 \
