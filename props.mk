@@ -33,6 +33,13 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.vendor.radio.voice_on_lte=1 \
     persist.vendor.radio.calls.on.ims=1
 
+# Kill off IMS logspam with fire
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.vendor.ims.disableADBLogs=1 \
+    persist.vendor.ims.disableDebugLogs=1 \
+    persist.vendor.ims.disableIMSLogs=1 \
+    persist.vendor.ims.disableQXDMLogs=1
+
 # Media
 PRODUCT_PRODUCT_PROPERTIES += \
     vendor.audio.offload.buffer.size.kb=256
