@@ -8,6 +8,11 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.bluetooth.library_name=libbluetooth_qti.so \
     vendor.bluetooth.soc=cherokee
 
+# Charger
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.charger.enable_suspend=true \
+    persist.vendor.quick.charge=1
+
 # CPU
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.bionic.cpu_variant=cortex-a73 \
