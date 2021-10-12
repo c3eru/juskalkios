@@ -8,6 +8,13 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.bluetooth.library_name=libbluetooth_qti.so \
     vendor.bluetooth.soc=cherokee
 
+# CPU
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.bionic.cpu_variant=cortex-a73 \
+    ro.bionic.2nd_cpu_variant=cortex-a73 \
+    dalvik.vm.isa.arm64.variant=cortex-a73 \
+    dalvik.vm.isa.arm.variant=cortex-a73
+
 # IMS
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.dbg.volte_avail_ovr=1 \
