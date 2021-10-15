@@ -159,6 +159,8 @@ TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 # Sepolicy
 include device/qcom/sepolicy/SEPolicy.mk
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
+SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/public
+SELINUX_IGNORE_NEVERALLOWS := true
 
 # Treble
 BOARD_VNDK_VERSION := current
