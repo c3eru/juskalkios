@@ -52,3 +52,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Netflix custom property
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.netflix.bsp_rev=Q6115-31409-1
+
+# System
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.sys.binary_xml=false
