@@ -41,6 +41,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Graphics
 PRODUCT_PRODUCT_PROPERTIES += \
+    debug.sdm.support_writeback=0 \
     vendor.display.disable_offline_rotator=1 \
     debug.sf.latch_unsignaled=1 \
     debug.hwui.use_buffer_age=false \
