@@ -59,6 +59,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.netflix.bsp_rev=Q6115-31409-1
 
+# RCS
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.rcs.supported=1
+
 # System
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.binary_xml=false
