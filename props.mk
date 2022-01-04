@@ -30,6 +30,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     drm.service.enabled=true
 
+# Graphics
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.surface_flinger.max_frame_buffer_acquired_buffers=3
+
 # IMS
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.dbg.volte_avail_ovr=1 \
