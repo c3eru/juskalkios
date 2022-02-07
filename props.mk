@@ -32,6 +32,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Graphics
 PRODUCT_PRODUCT_PROPERTIES += \
+    vendor.display.disable_rotator_downscale=1 \
     debug.renderengine.backend=threaded \
     ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 
