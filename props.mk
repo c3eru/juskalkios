@@ -32,6 +32,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Graphics
 PRODUCT_PRODUCT_PROPERTIES += \
+    debug.sf.latch_unsignaled=1 \
     debug.hwui.use_buffer_age=false \
     vendor.display.disable_rotator_downscale=1 \
     debug.renderengine.backend=threaded \
