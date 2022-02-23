@@ -41,6 +41,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Graphics
 PRODUCT_PRODUCT_PROPERTIES += \
+    persist.sys.force_sw_gles=0 \
+    debug.sf.disable_client_composition_cache=1 \
     vendor.display.disable_excl_rect_partial_fb=1 \
     debug.sdm.support_writeback=0 \
     vendor.display.disable_offline_rotator=1 \
