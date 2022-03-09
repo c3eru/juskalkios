@@ -35,6 +35,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     drm.service.enabled=true
 
+# FUSE Passthrough
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.sys.fuse.passthrough.enable=true
+
 # Graphics
 PRODUCT_PRODUCT_PROPERTIES += \
     vendor.display.disable_offline_rotator=1 \
