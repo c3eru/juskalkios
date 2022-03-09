@@ -58,6 +58,14 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.vendor.radio.voice_on_lte=1 \
     persist.vendor.radio.calls.on.ims=1
 
+# IORap
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.iorapd.enable=true \
+    iorapd.perfetto.enable=true \
+    iorapd.readahead.enable=true \
+    persist.device_config.runtime_native_boot.iorap_perfetto_enable=true \
+    persist.device_config.runtime_native_boot.iorap_readahead_enable=true
+
 # Kill off IMS logspam with fire
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.vendor.ims.disableADBLogs=1 \
