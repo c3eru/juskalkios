@@ -1044,6 +1044,20 @@
          should also be hidden if intended to be permanent. -->
     <item name="config_appTransitionAnimationDurationScaleDefault" format="float" type="dimen">0.8</item>
 
+    <!-- An array of arrays of side fingerprint sensor properties relative to each display.
+         Note: this value is temporary and is expected to be queried directly
+         from the HAL in the future. -->
+    <array name="config_sfps_sensor_props" translatable="false">
+        <item>@array/config_sfps_sensor_props_0</item>
+    </array>
+
+    <array name="config_sfps_sensor_props_0" translatable="false">
+        <item></item>
+        <item></item>
+        <item>987.5</item>
+        <item>135</item>
+    </array>
+
     <!-- The number of the max cached processes in the system. -->
     <integer name="config_customizedMaxCachedProcesses">64</integer>
 
