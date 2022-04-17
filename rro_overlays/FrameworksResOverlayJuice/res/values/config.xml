@@ -1058,6 +1058,9 @@
         <item>135</item>
     </array>
 
+    <!-- Whether device supports double tap to wake -->
+    <bool name="config_supportDoubleTapWake">true</bool>
+
     <!-- The number of the max cached processes in the system. -->
     <integer name="config_customizedMaxCachedProcesses">64</integer>
 

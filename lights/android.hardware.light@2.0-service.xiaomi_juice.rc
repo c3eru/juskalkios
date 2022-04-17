@@ -18,6 +18,13 @@ service vendor.light-hal-2-0 /vendor/bin/hw/android.hardware.light@2.0-service
     # shutting off lights while powering-off
     shutdown critical
 
+on boot
+# Force enable DT2W
+    chmod 0777 /sys
+    chmod 0755 /sys/touchpanel
+    chown system system /sys/touchpanel/double_tap
+    chmod 0600 /sys/touchpanel/double_tap
+
 on property:sys.boot_completed=1
     # Restrict permissions to socket file
     # to hide Magisk & co.
