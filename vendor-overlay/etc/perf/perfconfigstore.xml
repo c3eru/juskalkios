@@ -19,11 +19,11 @@ property Name is called. -->
 
                 <!--Vendor Properties -->
                 <Prop Name="vendor.debug.enable.lm" Value="true" />
-                <Prop Name="vendor.iop.enable_uxe" Value="0" />
+                <Prop Name="vendor.iop.enable_uxe" Value="1" />
                 <Prop Name="ro.lmk.enable_preferred_apps" Value="true" />
-                <Prop Name="vendor.enable.prefetch" Value="false" />
+                <Prop Name="vendor.enable.prefetch" Value="true" />
                 <Prop Name="vendor.iop.enable_prefetch_ofr" Value="0" />
-                <Prop Name="vendor.perf.iop_v3.enable" Value="false" />
+                <Prop Name="vendor.perf.iop_v3.enable" Value="true" />
                 <Prop Name="vendor.perf.iop_v3.enable.debug" Value="false" />
                 <Prop Name="vendor.debug.enable.memperfd" Value="true" />
                 <Prop Name="vendor.perf.pfar.enable" Value="1"/>
@@ -63,7 +63,7 @@ property Name is called. -->
                 <Prop Name="ro.vendor.qti.sys.fw.bg_apps_limit" Value="32"  Variant="bengal_32" />
                 <Prop Name="ro.vendor.qti.sys.fw.bservice_limit" Value="5"  Variant="bengal_32" />
                 <Prop Name="ro.lmk.kill_heaviest_task_dup"    Value="false" Variant="bengal_32" />
-                <Prop Name="vendor.iop.enable_uxe"               Value="0"  Variant="bengal_32" />
+                <Prop Name="vendor.iop.enable_uxe"               Value="1"  Variant="bengal_32" />
                 <Prop Name="ro.lmk.enable_preferred_apps"     Value="false" Variant="bengal_32"/>
                 <Prop Name="ro.lmk.psi_window_size_ms"          Value="500" Variant="bengal_32"/>
                 <Prop Name="ro.lmk.psi_poll_period_scrit_ms"    Value="100" Variant="bengal_32"/>
@@ -73,7 +73,7 @@ property Name is called. -->
                 <Prop Name="ro.vendor.qti.sys.fw.bservice_limit" Value="5"  Variant="bengal_32go" />
                 <Prop Name="ro.vendor.qti.sys.fw.bg_apps_limit" Value="32"  Variant="bengal_32go" />
                 <Prop Name="ro.lmk.kill_heaviest_task_dup" Value="false"    Variant="bengal_32go" />
-                <Prop Name="vendor.iop.enable_uxe"             Value="0"    Variant="bengal_32go" />
+                <Prop Name="vendor.iop.enable_uxe"             Value="1"    Variant="bengal_32go" />
                 <Prop Name="ro.lmk.enable_preferred_apps"    Value="false"  Variant="bengal_32go"/>
                 <Prop Name="ro.lmk.psi_window_size_ms"         Value="500"  Variant="bengal_32go"/>
                 <Prop Name="ro.lmk.psi_poll_period_scrit_ms"   Value="100"  Variant="bengal_32go"/>
