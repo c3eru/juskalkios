@@ -93,6 +93,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     sys.fflag.override.settings_seamless_transfer=true
 
+# Shutdown
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.build.shutdown_timeout=2
+
 # System
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.binary_xml=false
