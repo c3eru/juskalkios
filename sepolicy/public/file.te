@@ -1,0 +1,2 @@
+# nodes
+type vendor_sysfs_battery_supply, sysfs_type, fs_type;
