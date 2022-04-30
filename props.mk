@@ -1,3 +1,7 @@
+# APEX
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.apex.updatable=false
+
 # Bluetooth
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.bt.enableAptXHD=true \
