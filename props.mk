@@ -57,6 +57,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     debug.renderengine.backend=threaded \
     ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 
+# GO
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.lmk.kill_heaviest_task=false
+
 # IMS
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.dbg.volte_avail_ovr=1 \

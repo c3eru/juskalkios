@@ -84,6 +84,12 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss.visibility_control@1.0 \
     android.hardware.gnss.visibility_control@1.0.vendor
 
+# GO
+PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
+PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
+PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
+PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
